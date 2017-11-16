@@ -64,4 +64,5 @@ for iface in ifaceNames:
         j+=1
 print table
 print "--------------------------------------------------"
+
 print "total Incoming: " + str( RXload_total) + " Mbit/s " + str(RX_total) + " pkts/s,\tOutgoing: " + str(TXload_total) + " Mbit/s " + str(RX_total)+ " pkts/s"
